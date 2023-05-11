@@ -119,7 +119,6 @@ ul {
   animation-name: nav-animation ;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
-  animation-delay: 10ms;
   animation-iteration-count: 1;
 
 }
