@@ -111,10 +111,33 @@ ul {
   right: 20px;
   top: 60px;
   border-radius: 1rem;
-  line-height: 2;
-  z-index: 1;
-  background: linear-gradient(56deg, rgb(39, 38, 38), rgb(71, 68, 68), rgb(105, 104, 104));
-  padding: 1rem;
+  padding: .5rem;
+  background-color: #070918d7;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  z-index: 99;
+  animation-name: nav-animation ;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 10ms;
+  animation-iteration-count: 1;
+
+}
+
+@keyframes nav-animation {
+  0% {
+    transform: translateX(30px) translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px) translateY(0px);
+    opacity: 1;
+  }
+}
+
+.nav-li {
+  background-color: blueviolet;
+  padding: 1rem 4.5rem;
 }
 
 .gradient {

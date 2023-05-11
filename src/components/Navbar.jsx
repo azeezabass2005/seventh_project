@@ -42,7 +42,7 @@ const Navbar = () => {
             <img src={toggle ? close : menu} alt="menu" onClick={ () => setToggle((prev) => (!prev))} />
             <ul className={`${toggle ? 'flex' : 'hidden'} flex-col nav-mobile`}>
                 {navLinks.map((nav, index) => (
-                    <li key={nav.id} className={`${navLinks.length - 1 == index ? 'mb-0' : 'mb-3'}`}>
+                 <li key={nav.id} className={`${navLinks.length - 1 == index ? 'mb-0' : 'mb-3'} nav-li`}>
                         <a href={`#${nav.id}`} onClick={ () => setToggle((prev) => (!prev))} className={`text-white px-1 py-2`}>
                             {nav.title}
                         </a>
