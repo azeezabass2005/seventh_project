@@ -101,7 +101,7 @@ const Contact = () => {
             </label>
             <label htmlFor="message" className={`flex gap-5 flex-col`}>
               <span className={`text-white font-poppins font-semibold`}>
-                Email
+                Your Message
               </span>
               <textarea
                 rows={5} 
