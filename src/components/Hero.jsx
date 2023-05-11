@@ -15,7 +15,7 @@ const Hero = () => {
             a <br className={`sm:flex hidden`} />web <span className={`gradient-two`}>designer and dev</span>.
           </h2>
           <p className={`${styles.paragraph} sm:mt-7`}>
-            i'm passionate about building beautiful user <br className={`sm:flex hidden`} /> interfaces and user experiences that tends to <br className={`sm:flex hidden`} />satisfy the client and appeal the users.
+            I&apos;m passionate about building beautiful user <br className={`sm:flex hidden`} /> interfaces and user experiences that tends to <br className={`sm:flex hidden`} />satisfy the client and appeal the users.
           </p>
           <ContactMe />
         </div>

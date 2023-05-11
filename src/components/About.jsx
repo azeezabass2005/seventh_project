@@ -20,7 +20,7 @@ const About = () => {
                     Brief Intro<span className={`gradient-two`}> About me</span>.
                 </h2>
                 <p className={`${styles.paragraph} sm:mt-7 mt-5 z-[2]`}>
-                    I'm Azeez Abass Afolarin, I'm from Oyo state<br className={`sm:flex hidden`} />  of Nigeria. I love spending my  leisure time <br className={`sm:flex hidden`} /> coding and listening to music. I'm always <br className={`sm:flex hidden`} /> looking forward to build webpages that are <br className={`sm:flex hidden`} />beautiful and accessible to users.<br className={`sm:flex hidden`} /> 
+                    I&apos;m Azeez Abass Afolarin, I&apos;m from Oyo state<br className={`sm:flex hidden`} />  of Nigeria. I love spending my  leisure time <br className={`sm:flex hidden`} /> coding and listening to music. I&apos;m always <br className={`sm:flex hidden`} /> looking forward to build webpages that are <br className={`sm:flex hidden`} />beautiful and accessible to users.<br className={`sm:flex hidden`} /> 
                 </p>
                 <ViewResume />
                 <div className={` about-anime w-[40px] h-[40px] rounded-full`} />

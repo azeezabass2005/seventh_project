@@ -9,7 +9,7 @@ const FavoriteQuote = () => {
             Favorite Quote
         </h2>
         <p className={`${styles.paragraph}`}><q> 
-          You got to find what you love, the only way to be truly satisfied is to love what you do, If you haven't find it yet keep looking, don't settle. As with all matters of the heart you will know when you find it. </q> 
+          You got to find what you love, the only way to be truly satisfied is to love what you do, If you haven&apos;t find it yet keep looking, don&apos;t settle. As with all matters of the heart you will know when you find it. </q> 
         </p>
         <h4 className='text-white text-[22px] flex w-[90%] place-content-end'>
             &#8212; &nbsp; Steve Jobs
