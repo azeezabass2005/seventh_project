@@ -71,7 +71,7 @@ export const softSkills = [
         id: 'Self Confidence',
         skill: 'Self Confidence',
         img: selfconfidence,
-        description: `I have unflickering believe in myself that i can do virtually anything just like others or even better.`
+        description: `I have unflinching believe in myself that i can do virtually anything just like others or even better.`
     },
     {
         id: 'Empathy',
