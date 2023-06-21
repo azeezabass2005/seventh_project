@@ -25,21 +25,12 @@ const About = () => {
                 <ViewResume />
                 <div className={` about-anime w-[40px] h-[40px] rounded-full`} />
             </motion.div>
-            {/* <motion.div initial={{ opacity: 0}} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.6 }} >
-                <h2 className={`${styles.heading2}`}>
-                    My<span className={`gradient-two`}> Mission</span> and<span className={`gradient-two`}> Vision</span>.
-                </h2>
-                <p className={`${styles.paragraph} sm:mt-7 mt-5`}>
-                    Though as humans our vision or mission  <br className={`sm:flex hidden`} /> may change over time, as of now, my <br className={`sm:flex hidden`} /> vision is to build webpages that are <br className={`sm:flex hidden`} />beautiful, easy to navigate and lack usage <br className={`sm:flex hidden`} /> stress for users and I plan to  accomplish <br className={`sm:flex hidden`} /> this by my mission  which is Learning and  <br className={`sm:flex hidden`} />integrating both new and existing web techs.
-                </p>
-                <div className={` about-anime w-[40px] h-[40px] rounded-full`} />
-            </motion.div > */}
-            <div className={`flex justify-center items-center sm:min-h-[450px] min-h-[300px] md:mr-7`}>
+            <div className={`flex justify-center items-center sm:min-h-[450px] min-h-[300px] md:ml-7`}>
                 <Cube />
             </div>
 
         </div>
-        <motion.div initial={{ opacity: 0, y:80 }} whileInView={{ opacity:1, y:0 }} transition={{ duration: 0.3 }} className={`flex justify-center`}>
+        <motion.div initial={{ opacity: 0, y:100 }} whileInView={{ opacity:1, y:0 }} transition={{ duration: 0.5 }} className={`flex justify-center`}>
             <FavoriteQuote />
         </motion.div>
     </div>

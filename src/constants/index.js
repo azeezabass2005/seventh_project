@@ -105,17 +105,17 @@ export const myNetworks = [
 export const myProjects = [
     {
         id: 'calmclone',
-        name: 'Calm Clone',
+        name: 'Crypto Page',
         description: 'The clone of the UI/UX of Calm an app for sleep and mediation that gives people bed stories.',
         img: calmclone,
-        githublink: '#'
+        githublink: 'https://github.com/azeezabass2005/crypto_landing_page'
     },
     {
         id: 'hoobank',
         name: 'Hoo Bank',
         description: 'The design to code of the UI/UX of Hoo Bank an app that offers various banking services.',
         img: hoobank,
-        githublink: '#'
+        githublink: 'https://github.com/azeezabass2005/hoobank_clone'
     },
     {
         id: 'doordashclone',
