@@ -23,6 +23,7 @@ import Stevejob from './Stevejob.jpg'
 import hoobank from './hoobank.png'
 import doordashclone from './doordashclone.png'
 import calmclone from './calmclone.png'
+import cryptolandingpage from './cryptolandingpage.png'
 import access from './access.png'
 import linkedinicon from './linkedinicon.png'
 import fbicon from './fbicon.png'
@@ -100,6 +101,7 @@ export {
   empathy,
   Stevejob,
   hoobank,
+  cryptolandingpage,
   doordashclone,
   calmclone,
   access,

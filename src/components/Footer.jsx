@@ -5,7 +5,7 @@ const Footer = () => {
     let year = new Date().getFullYear()
 
   return (
-    <div className={`w-full flex justify-center items-center bg-[#224]`}>
+    <div className={`w-full flex justify-center items-center bg-[#224] vs:p-3`}>
         <p className={`text-[#ccc]`}>
             coded by codegem &copy; {year}
         </p>

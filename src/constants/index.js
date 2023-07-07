@@ -1,4 +1,4 @@
-import { backend, web, mobile, creator, communication, creativity, empathy, selfconfidence, hoobank, calmclone, doordashclone, vincent, ebube, mohammed } from "../assets"
+import { backend, web, mobile, creator, communication, creativity, empathy, selfconfidence, hoobank, calmclone, doordashclone, cryptolandingpage, vincent, ebube, mohammed } from "../assets"
 
 export const navLinks = [
     {
@@ -104,10 +104,10 @@ export const myNetworks = [
 
 export const myProjects = [
     {
-        id: 'calmclone',
+        id: 'cryptolandingpage',
         name: 'Crypto Page',
-        description: 'The clone of the UI/UX of Calm an app for sleep and mediation that gives people bed stories.',
-        img: calmclone,
+        description: 'A landing page for a crypto loan app that is filled with background gradients, border gradients and animations.',
+        img: cryptolandingpage,
         githublink: 'https://github.com/azeezabass2005/crypto_landing_page'
     },
     {

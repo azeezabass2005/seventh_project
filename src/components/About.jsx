@@ -15,7 +15,7 @@ const About = () => {
         </div>
 
         <div className={`${layout.section} about sm:justify-around items-start z-[2]`}>
-            <motion.div initial={{ opacity: 0  }} whileInView={{ opacity: 1}} transition={{ duration: 0.6 }} className={`md:mb-0 mb-5`}>
+            <motion.div whileInView={{ x: [-150, 0], opacity: [0, 1] }} transition={{ duration: 0.5, delay: 0.1 }} className={`md:mb-0 mb-5`}>
                 <h2 className={`${styles.heading2}`}>
                     Brief Intro<span className={`gradient-two`}> About me</span>.
                 </h2>
@@ -25,9 +25,9 @@ const About = () => {
                 <ViewResume />
                 <div className={` about-anime w-[40px] h-[40px] rounded-full`} />
             </motion.div>
-            <div className={`flex justify-center items-center sm:min-h-[450px] min-h-[300px] md:ml-7`}>
+            <motion.div transition={{ duration: 0.5, delay: 0.1 }} whileInView={{ x:[150, 0], opacity:[0, 1] }} className={`flex justify-center items-center sm:min-h-[450px] min-h-[300px] md:ml-7`}>
                 <Cube />
-            </div>
+            </motion.div>
 
         </div>
         <motion.div initial={{ opacity: 0, y:100 }} whileInView={{ opacity:1, y:0 }} transition={{ duration: 0.5 }} className={`flex justify-center`}>
