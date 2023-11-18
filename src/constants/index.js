@@ -38,7 +38,7 @@ export const technicalSkills = [
         id: 'back-end',
         skill: 'Back-end Developer',
         img: backend,
-        description: `I'm currently learning how to used node js, express js and mongodb in order to be able to get control over the world of web data.`
+        description: `I use my proficiency in Node.js, Express.js, Typescript and MongoDB to assert control over the realm of web data.`
     },
     {
         id: 'UI/UX',
