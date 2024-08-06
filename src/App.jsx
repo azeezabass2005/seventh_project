@@ -5,7 +5,7 @@ function App() {
       <div className={`sm:py-5 sm:px-10 py-1 px-2 w-full top-0 fixed fixed-nav z-[10]`}>
         <Navbar />
       </div>
-      <div className={`bg-primary sm:pt-[100px] pt-[55px]`}>
+      <div className={`bg-primary sm:pt-[80px] pt-[55px]`}>
         <Hero />
       </div>
       <div className={`bg-primary`}>
