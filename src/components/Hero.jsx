@@ -8,8 +8,8 @@ import { reactjs, html, css, javascript } from '../assets'
 
 const Hero = () => {
   return (
-    <div className={`${layout.heroSection} bg-hero flex justify-around min-h-[90%]`}>
-      <div className="relative h-[90%] w-full bg-[#080A19]"><div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div></div>
+    <div className={`${layout.heroSection} relative flex justify-around min-h-[90%]`}>
+      <div className="relative h-full w-full bg-[#080A19]"><div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px]"></div></div>
       <motion.div whileInView={{ x: [-150, 0], opacity: [0, 1] }} transition={{ duration: 0.5, delay: 0.1 }} className={`${styles.flexCenter} p-5`}>
         <div className={`flex flex-col`}>
           <h2 className={`${styles.heading2} text-white`}>
