@@ -8,7 +8,7 @@ import { reactjs, html, css, javascript } from '../assets'
 
 const Hero = () => {
   return (
-    <div className={`${layout.heroSection} bg-hero flex justify-around min-h-[95%]`}>
+    <div className={`${layout.heroSection} bg-hero flex justify-around min-h-[90%]`}>
       <motion.div whileInView={{ x: [-150, 0], opacity: [0, 1] }} transition={{ duration: 0.5, delay: 0.1 }} className={`${styles.flexCenter} p-5`}>
         <div className={`flex flex-col`}>
           <h2 className={`${styles.heading2} text-white`}>
