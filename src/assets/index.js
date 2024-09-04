@@ -63,6 +63,7 @@ import threejs from "./tech/threejs.svg";
 import vincent from './vincent.jpg'
 import ebube from './ebube.jpg'
 import mohammed from './mohammed.jpg'
+import profilepic from './profile-pic.png'
 
 export {
   logo,
@@ -110,4 +111,5 @@ export {
   vincent,
   ebube,
   mohammed,
+  profilepic
 };

@@ -1,4 +1,6 @@
 import { backend, web, mobile, creator, communication, creativity, empathy, selfconfidence, hoobank, calmclone, doordashclone, cryptolandingpage, vincent, ebube, mohammed } from "../assets"
+import gorraimg from '../assets/gorra.png'
+
 
 export const navLinks = [
     {
@@ -41,10 +43,10 @@ export const technicalSkills = [
         description: `I use my proficiency in Node.js, Express.js, Typescript and MongoDB to assert control over the realm of web data.`
     },
     {
-        id: 'UI/UX',
-        skill: 'UI/UX Designer',
+        id: 'mobile',
+        skill: 'Mobile App Developer',
         img: creator,
-        description: `I use my various coding skills and development tools like vscode, google chrome and figma to convert designs to code.`
+        description: `I use my React Native Skills, to build cross platform mobile apps that are user friendly and integrates with Firebase or Supabase.`
     },
     {
         id: 'Web-3',
@@ -104,6 +106,13 @@ export const myNetworks = [
 
 export const myProjects = [
     {
+        id: 'gorrahat',
+        name: 'Gorra | Hats',
+        description: 'A fullstack ecommerce website for selling hats using NextJS, ExpressJs, Typescript',
+        img: gorraimg,
+        githublink: 'https://github.com/azeezabass2005/gorra'
+    },
+    {
         id: 'cryptolandingpage',
         name: 'Crypto Page',
         description: 'A landing page for a crypto loan app that is filled with background gradients, border gradients and animations.',
@@ -116,12 +125,5 @@ export const myProjects = [
         description: 'The design to code of the UI/UX of Hoo Bank an app that offers various banking services.',
         img: hoobank,
         githublink: 'https://github.com/azeezabass2005/hoobank_clone'
-    },
-    {
-        id: 'doordashclone',
-        name: 'Door Dash Clone',
-        description: 'The clone of the UI/UX of Doordash an app where drivers see delivery jobs to earn a weekly.',
-        img: doordashclone,
-        githublink: '#'
     },
 ]

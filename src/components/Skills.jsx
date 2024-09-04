@@ -53,6 +53,44 @@ const Skills = () => {
             </div>
 
         </div>
+        <div className='w-full flex justify-center items-center gap-2.5 flex-wrap mt-4'>
+            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
+                NextJS
+            </p>
+            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
+                ReactJs
+            </p>
+            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
+                NodeJs
+            </p>
+            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
+                ExpressJs
+            </p>
+            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
+                Typescript
+            </p>
+            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
+                TailwindCSS
+            </p>
+            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
+                MongoDb
+            </p>
+            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
+                HTMl
+            </p>
+            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
+                CSS
+            </p>
+            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
+                Javascript
+            </p>
+            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
+                React Native
+            </p>
+            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
+                Git
+            </p>
+        </div>
     </div>
   )
 }
