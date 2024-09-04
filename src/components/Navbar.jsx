@@ -39,7 +39,7 @@ const Navbar = () => {
             </ul>
         </div>
         <div className='sm:hidden flex nav-mobile-container'>
-            <img src={toggle ? close : menu} alt="menu" onClick={ () => setToggle((prev) => (!prev))} />
+            <img src={toggle ? close : menu} alt="menu" onClick={ () => setToggle((prev) => (!prev))} className='mr-2' />
             <ul className={`${toggle ? 'flex' : 'hidden'} flex-col nav-mobile`}>
                 {navLinks.map((nav, index) => (
                  <li key={nav.id} className={`${navLinks.length - 1 == index ? 'mb-0' : 'mb-3'} nav-li`}>
