@@ -53,42 +53,42 @@ const Skills = () => {
             </div>
 
         </div>
-        <div className='w-full flex justify-center items-center gap-2.5 flex-wrap mt-4'>
-            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
+        <div className='w-full flex justify-center items-center gap-2.5 flex-wrap mt-4 px-5'>
+            <p className='text-white font-semibold bg-gradient px-3.5 py-1 rounded-full'>
                 NextJS
             </p>
-            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
+            <p className='text-white font-semibold bg-gradient px-3.5 py-1 rounded-full'>
                 ReactJs
             </p>
-            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
+            <p className='text-white font-semibold bg-gradient px-3.5 py-1 rounded-full'>
                 NodeJs
             </p>
-            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
+            <p className='text-white font-semibold bg-gradient px-3.5 py-1 rounded-full'>
                 ExpressJs
             </p>
-            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
+            <p className='text-white font-semibold bg-gradient px-3.5 py-1 rounded-full'>
                 Typescript
             </p>
-            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
-                TailwindCSS
-            </p>
-            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
-                MongoDb
-            </p>
-            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
+            <p className='text-white font-semibold bg-gradient px-3.5 py-1 rounded-full'>
                 HTMl
             </p>
-            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
+            <p className='text-white font-semibold bg-gradient px-3.5 py-1 rounded-full'>
                 CSS
             </p>
-            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
+            <p className='text-white font-semibold bg-gradient px-3.5 py-1 rounded-full'>
+                Git
+            </p>
+            <p className='text-white font-semibold bg-gradient px-3.5 py-1 rounded-full'>
                 Javascript
             </p>
-            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
+            <p className='text-white font-semibold bg-gradient px-3.5 py-1 rounded-full'>
                 React Native
             </p>
-            <p className='text-white font-semibold bg-gradient px-2 py-1 rounded-full'>
-                Git
+            <p className='text-white font-semibold bg-gradient px-3.5 py-1 rounded-full'>
+                TailwindCSS
+            </p>
+            <p className='text-white font-semibold bg-gradient px-3.5 py-1 rounded-full'>
+                MongoDb
             </p>
         </div>
     </div>
